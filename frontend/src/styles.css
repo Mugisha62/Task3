@@ -1,0 +1,92 @@
+/* Global */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #cacdda, #cac6cf);
+}
+
+/* Container */
+.container {
+  max-width: 500px;
+  margin: 5px auto;
+  padding: 5px;
+}
+
+/* Card */
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  margin-bottom: 25px;
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Inputs */
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 15px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+/* Buttons */
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button.primary {
+  background: #667eea;
+  color: white;
+}
+
+button.primary:hover {
+  background: #5a67d8;
+}
+
+button.danger {
+  background: #e53e3e;
+  color: white;
+}
+
+button.danger:hover {
+  background: #c53030;
+}
+
+/* Task List */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Chat box */
+.chat-box {
+  background: #f7f7f7;
+  padding: 15px;
+  border-radius: 8px;
+}
